@@ -53,9 +53,7 @@ function SignupForm() {
             onChange={handleChange}
             className="form-control fs-5"
             placeholder="Enter username"
-            id="username"
-          />
-          {/* Display error message if username field has an error */}
+            id="username"          />
           <div className="text-danger form-text fw-bold fs-5">
             {errors.username}
           </div>
@@ -73,7 +71,6 @@ function SignupForm() {
             placeholder="Enter Email"
             id="email"
           />
-          {/* Display error message if email field has an error */}
           <div className="text-danger form-text fw-bold fs-5">
             {errors.email}
           </div>
@@ -91,7 +88,6 @@ function SignupForm() {
             placeholder="Enter password"
             id="password"
           />
-          {/* Display error message if password field has an error */}
           <div className="text-danger form-text fw-bold fs-5">
             {errors.password}
           </div>
@@ -109,7 +105,6 @@ function SignupForm() {
             className="form-control fs-5"
             placeholder="Enter confirm password"
           />
-          {/* Display error message if confirm password field has an error */}
           <div className="text-danger form-text mb-5 fw-bold fs-5">
             {errors.confirm_password}
           </div>
